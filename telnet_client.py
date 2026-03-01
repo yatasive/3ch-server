@@ -2,8 +2,8 @@ import socket
 import threading
 import sys
 
-HOST = "YOUR_RAILWAY_DOMAIN_HERE"
-PORT = 443
+HOST = "web-production-1466.up.railway.app"
+PORT = 8291
 
 def receive(sock):
     while True:
